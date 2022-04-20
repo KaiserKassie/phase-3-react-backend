@@ -2,13 +2,13 @@ puts "🌱 Seeding spices..."
 
 puts "🌱 Seeding cookies..."
 # Seed your database here
-Cookie.create(brand: "Amazon", flavor: "Peanut Butter", image: "")
-Cookie.create(brand: "Google", flavor: "Sugar", image: "https://photos.app.goo.gl/i1naZme3Yh8YAfUA6")
-Cookie.create(brand: "Microsoft", flavor: "Chocolate Chip", image: "https://photos.app.goo.gl/2G7YQaYtGevobCbq6")
-Cookie.create(brand: "Youtube", flavor: "Chocolate Wafer", image: "https://photos.app.goo.gl/rGzZZGwL1AMzMKEL7")
-Cookie.create(brand: "TikTok", flavor: "Ginger Snaps", image: "https://photos.app.goo.gl/wym3rgHjYn3WSNbq9")
-Cookie.create(brand: "Apple", flavor: "Vanilla", image: "https://photos.app.goo.gl/wym3rgHjYn3WSNbq9")
-Cookie.create(brand: "LinkedIn", flavor: "Oatmeal Cream Pie", image: "https://photos.app.goo.gl/wym3rgHjYn3WSNbq9")
+Cookie.create(brand: "Amazon", flavor: "Peanut Butter", image: "file:///Users/risharddavis/Downloads/IMG_3155.jpg")
+Cookie.create(brand: "Google", flavor: "Sugar", image: "file:///Users/risharddavis/Downloads/IMG_3156.jpg")
+Cookie.create(brand: "Microsoft", flavor: "Chocolate Chip", image: "file:///Users/risharddavis/Downloads/IMG_3157.jpg")
+Cookie.create(brand: "Youtube", flavor: "Chocolate Wafer", image: "file:///Users/risharddavis/Downloads/IMG_3158.jpg")
+Cookie.create(brand: "TikTok", flavor: "Ginger Snaps", image: "file:///Users/risharddavis/Downloads/IMG_3159.jpg")
+Cookie.create(brand: "Apple", flavor: "Vanilla", image: "file:///Users/risharddavis/Downloads/IMG_3160.jpg")
+Cookie.create(brand: "LinkedIn", flavor: "Oatmeal Cream Pie", image: "file:///Users/risharddavis/Downloads/IMG_3161.jpg")
 
 puts "Seeding ingredients..."
 Ingredient.create(name: "Butter", allergen: false)
