@@ -1,5 +1,5 @@
 class Ingredient < ActiveRecord::Base
     has_many :assignments
-    has_many :cookies, through: :assignments
+    has_many :cookies, through: :assignments, source: :cookie
 
 end

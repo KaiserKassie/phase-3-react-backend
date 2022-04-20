@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2022_04_20_042813) do
     t.string "flavor"
     t.string "brand"
     t.string "image"
+    t.float "price"
   end
 
   create_table "ingredients", force: :cascade do |t|
