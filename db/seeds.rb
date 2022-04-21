@@ -3,7 +3,7 @@ puts "🌱 Seeding spices..."
 puts "🌱 Seeding cookies..."
 # Seed your database here
 Cookie.create(brand: "Amazon", flavor: "Peanut Butter", price: 6.79, image: "file:///Users/risharddavis/Downloads/IMG_3155.jpg")
-Cookie.create(brand: "Google", flavor: "Sugar", price: 5.47, image: "file:///Users/risharddavis/Downloads/IMG_3156.jpg")
+Cookie.create(brand: "Google", flavor: "Sugar", price: 5.47, image: "https://i.ibb.co/Brwr28q/Google-Cookies.jpg")
 Cookie.create(brand: "Microsoft", flavor: "Chocolate Chip", price: 7.34, image: "file:///Users/risharddavis/Downloads/IMG_3157.jpg")
 Cookie.create(brand: "Youtube", flavor: "Chocolate Wafer", price: 4.82, image: "file:///Users/risharddavis/Downloads/IMG_3158.jpg")
 Cookie.create(brand: "TikTok", flavor: "Ginger Snaps", price: 2.53, image: "file:///Users/risharddavis/Downloads/IMG_3159.jpg")
@@ -14,7 +14,7 @@ puts "Seeding ingredients..."
 Ingredient.create(name: "Butter", allergen: false)
 Ingredient.create(name: "Peanut Butter", allergen: true)
 Ingredient.create(name: "Brown Sugar", allergen: false)
-Ingredient.create(name: "Eggs", allergen: true)
+Ingredient.create(name: "Eggs", allergen: false)
 Ingredient.create(name: "White Sugar", allergen: false)
 Ingredient.create(name: "Baking Soda", allergen: false)
 Ingredient.create(name: "Chocolate Chips", allergen: false)
