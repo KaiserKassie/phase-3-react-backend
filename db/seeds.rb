@@ -2,13 +2,13 @@ puts "🌱 Seeding spices..."
 
 puts "🌱 Seeding cookies..."
 # Seed your database here
-Cookie.create(brand: "Amazon", flavor: "Peanut Butter", price: 6.79, image: "file:///Users/risharddavis/Downloads/IMG_3155.jpg")
-Cookie.create(brand: "Google", flavor: "Sugar", price: 5.47, image: "https://i.ibb.co/Brwr28q/Google-Cookies.jpg")
-Cookie.create(brand: "Microsoft", flavor: "Chocolate Chip", price: 7.34, image: "file:///Users/risharddavis/Downloads/IMG_3157.jpg")
-Cookie.create(brand: "Youtube", flavor: "Chocolate Wafer", price: 4.82, image: "file:///Users/risharddavis/Downloads/IMG_3158.jpg")
-Cookie.create(brand: "TikTok", flavor: "Ginger Snaps", price: 2.53, image: "file:///Users/risharddavis/Downloads/IMG_3159.jpg")
-Cookie.create(brand: "Apple", flavor: "Vanilla", price: 11.99, image: "file:///Users/risharddavis/Downloads/IMG_3160.jpg")
-Cookie.create(brand: "LinkedIn", flavor: "Oatmeal Cream Pie", price: 3.12, image: "file:///Users/risharddavis/Downloads/IMG_3161.jpg")
+Cookie.create(brand: "Amazon", flavor: "Peanut Butter", price: 6.79, image: "https://i.ibb.co/cDqXcW4/Amazon-Cookies-Small.png")
+Cookie.create(brand: "Google", flavor: "Sugar", price: 5.47, image: "https://i.ibb.co/R3zrb3Y/Google-Cookies-Small.png")
+Cookie.create(brand: "Microsoft", flavor: "Chocolate Chip", price: 7.34, image: "https://i.ibb.co/gm0JbHx/Microsoft-Cookies-Small.png")
+Cookie.create(brand: "Youtube", flavor: "Chocolate Wafer", price: 4.82, image: "https://i.ibb.co/vjPwkQd/You-Tube-Cookies-Small.png")
+Cookie.create(brand: "TikTok", flavor: "Ginger Snaps", price: 2.53, image: "https://i.ibb.co/j6Y29M1/Tik-Tok-Cookies-Small.png")
+Cookie.create(brand: "Apple", flavor: "Vanilla", price: 11.99, image: "https://i.ibb.co/mNgJ3k1/Apple-Cookies-Small.png")
+Cookie.create(brand: "LinkedIn", flavor: "Oatmeal Cream Pie", price: 3.12, image: "https://i.ibb.co/mSz13HH/Linked-In-Cookies-Small.png")
 
 puts "Seeding ingredients..."
 Ingredient.create(name: "Butter", allergen: false)
