@@ -19,10 +19,10 @@ class ApplicationController < Sinatra::Base
     cookie.to_json
   end
 
-  patch "cookies/:id" do
+  patch "/cookies/:id/rating" do
     cookie = Cookie.find(params[:id])
     cookie.update(
-      inCart: params[:inCart]
+      rating: params[:rating]
     )
     cookie.to_json
   end
